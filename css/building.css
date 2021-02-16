@@ -218,6 +218,7 @@ h2 {
 
 .preloader {
     /* transition: 20s; */
+    border-radius:0;
 }
 
 #services.section.db {
