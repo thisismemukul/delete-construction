@@ -211,14 +211,14 @@ h2 {
 #preloader {
     width: 100%;
     height: auto;
-    background-color: #e8a900;
+    background-color: #282828;
 
 
 }
 
 .preloader {
     /* transition: 20s; */
-    border-radius:0;
+    border-radius: 0;
 }
 
 #services.section.db {
@@ -1059,6 +1059,16 @@ div#services .serv .service-inform-text p {
     opacity: 1;
 }
 
+
+
+@media (max-width:768px) {
+    .gal-item .modal-body>h1 {
+        color: #fff;
+    }
+}
+
+
+
 #projects .modal-dialog .modal-body {
     border: solid #fff 10px;
 }
@@ -1332,3 +1342,62 @@ i.red {
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {}
+
+
+
+.progress-custom {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.progress-custom .progress-bar-cs {
+    background-color: #d9534f;
+    width: 95%;
+    height: 35px;
+}
+.progress-custom .progress-bar-cs-2 {
+    background-color: #5cb85c;
+    width: 95%;
+    height: 35px;
+}
+.progress-custom .progress-bar-cs-3 {
+    background-color: #276397;
+    width: 95%;
+    height: 35px;
+}
+.progress-custom .progress-bar-cs-4 {
+    background-color: #428bca;
+    width: 95%;
+    height: 35px;
+}
+.progress-custom .progress-bar-cs-5 {
+    background-color: #f0ad4e;
+    width: 95%;
+    height: 35px;
+}
+
+.progress-custom p {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+.progress-h1{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+#about-info{
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4) ;
+    border-radius: 5px;
+}
